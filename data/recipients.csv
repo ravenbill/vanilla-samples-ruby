@@ -1,0 +1,4 @@
+name,email,role
+Alice Johnson,alice@example.com,signer
+Bob Smith,bob@example.com,signer
+Carol Williams,carol@example.com,cc

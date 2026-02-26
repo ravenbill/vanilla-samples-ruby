@@ -1,0 +1,11 @@
+*.gem
+*.rbc
+.bundle/
+vendor/
+.env
+.env.*
+Gemfile.lock
+tmp/
+log/
+coverage/
+.byebug_history
