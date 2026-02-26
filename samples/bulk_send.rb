@@ -4,6 +4,9 @@
 require "csv"
 require_relative "../lib/auth"
 
+# NOTE: Bulk Send feature is not yet implemented in Vanilla Esign.
+# This sample demonstrates the planned API design and may change.
+
 CSV_PATH = ARGV[0] || File.join(__dir__, "..", "data", "recipients.csv")
 
 puts "=== Bulk Send ==="

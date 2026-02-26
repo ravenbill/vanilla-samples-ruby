@@ -3,6 +3,9 @@
 
 require_relative "../lib/auth"
 
+# NOTE: Templates feature is not yet implemented in Vanilla Esign.
+# This sample demonstrates the planned API design and may change.
+
 puts "=== Use Templates ==="
 
 puts "\n1. Listing templates..."

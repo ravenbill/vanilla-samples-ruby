@@ -6,6 +6,13 @@ Runnable code samples for the Vanilla API using **only Ruby stdlib** (no gems re
 
 - Ruby 3.0+
 
+## Feature Status
+
+Most samples work with the current Vanilla Esign API. The following samples demonstrate **planned features** that are not yet implemented:
+
+- `samples/use_templates.rb` — Templates (planned)
+- `samples/bulk_send.rb` — Bulk Send (planned)
+
 ## Setup
 
 ```bash
@@ -15,7 +22,7 @@ git clone <repo-url> && cd vanilla-samples-ruby
 Set the required environment variables:
 
 ```bash
-export VANILLA_API_URL="https://your-instance.example.com"  # default: http://localhost:4000
+export VANILLA_API_URL="https://demo.ravenbill.com"  # or https://www.ravenbill.com for production
 export VANILLA_EMAIL="you@example.com"
 export VANILLA_PASSWORD="your-password"
 export VANILLA_ACCOUNT_ID="your-account-id"
